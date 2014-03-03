@@ -1,0 +1,185 @@
+top - 09:25:01 up 27 days, 23:21,  0 users,  load average: 0.16, 0.06, 0.06
+Tasks: 177 total,   1 running, 175 sleeping,   0 stopped,   1 zombie
+Cpu(s):  0.2%us,  0.4%sy,  0.0%ni, 99.4%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:   8171576k total,  7423528k used,   748048k free,   373228k buffers
+Swap:  4191228k total,     2068k used,  4189160k free,  3785344k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+34581 root      20   0 5119m 1.4g  43m S    4 17.9 220:17.77 java               
+11429 mysql     20   0  871m 105m 9.8m S    2  1.3  26:11.38 mysqld             
+29349 root      20   0 17336 1328  948 R    2  0.0   0:00.01 top                
+34163 root      20   0 36200  18m 4716 S    2  0.2  33:37.86 Xvnc4              
+    1 root      20   0 24740 2564 1352 S    0  0.0   0:01.85 init               
+    2 root      20   0     0    0    0 S    0  0.0   0:00.82 kthreadd           
+    3 root      20   0     0    0    0 S    0  0.0   0:25.30 ksoftirqd/0        
+    5 root      20   0     0    0    0 S    0  0.0   0:36.95 kworker/u:0        
+    6 root      RT   0     0    0    0 S    0  0.0   0:01.90 migration/0        
+    7 root      RT   0     0    0    0 S    0  0.0   0:22.19 watchdog/0         
+    8 root      RT   0     0    0    0 S    0  0.0   0:01.60 migration/1        
+   10 root      20   0     0    0    0 S    0  0.0   0:25.16 ksoftirqd/1        
+   12 root      RT   0     0    0    0 S    0  0.0   0:20.12 watchdog/1         
+   13 root       0 -20     0    0    0 S    0  0.0   0:00.00 cpuset             
+   14 root       0 -20     0    0    0 S    0  0.0   0:00.00 khelper            
+   15 root      20   0     0    0    0 S    0  0.0   0:00.00 kdevtmpfs          
+   16 root       0 -20     0    0    0 S    0  0.0   0:00.00 netns              
+   17 root      20   0     0    0    0 S    0  0.0   0:33.54 kworker/u:1        
+   18 root      20   0     0    0    0 S    0  0.0   0:06.91 sync_supers        
+   19 root      20   0     0    0    0 S    0  0.0   0:00.30 bdi-default        
+   20 root       0 -20     0    0    0 S    0  0.0   0:00.00 kintegrityd        
+   21 root       0 -20     0    0    0 S    0  0.0   0:00.00 kblockd            
+   22 root       0 -20     0    0    0 S    0  0.0   0:00.00 ata_sff            
+   23 root      20   0     0    0    0 S    0  0.0   0:00.00 khubd              
+   24 root       0 -20     0    0    0 S    0  0.0   0:00.00 md                 
+   26 root      20   0     0    0    0 S    0  0.0   0:05.33 khungtaskd         
+   27 root      20   0     0    0    0 S    0  0.0   0:00.58 kswapd0            
+   28 root      25   5     0    0    0 S    0  0.0   0:00.00 ksmd               
+   29 root      39  19     0    0    0 S    0  0.0   0:00.00 khugepaged         
+   30 root      20   0     0    0    0 S    0  0.0   0:00.02 fsnotify_mark      
+   31 root      20   0     0    0    0 S    0  0.0   0:00.00 ecryptfs-kthrea    
+   32 root       0 -20     0    0    0 S    0  0.0   0:00.00 crypto             
+   40 root       0 -20     0    0    0 S    0  0.0   0:00.00 kthrotld           
+   42 root      20   0     0    0    0 S    0  0.0   0:00.03 scsi_eh_0          
+   43 root      20   0     0    0    0 S    0  0.0   0:00.03 scsi_eh_1          
+   64 root       0 -20     0    0    0 S    0  0.0   0:00.00 devfreq_wq         
+  265 root       0 -20     0    0    0 S    0  0.0   0:00.00 mpt_poll_0         
+  266 root       0 -20     0    0    0 S    0  0.0   0:00.00 mpt/0              
+  279 root      20   0     0    0    0 S    0  0.0   0:00.00 scsi_eh_2          
+  294 root      20   0     0    0    0 S    0  0.0   1:18.07 jbd2/sda1-8        
+  295 root       0 -20     0    0    0 S    0  0.0   0:00.00 ext4-dio-unwrit    
+  377 root      20   0 17368  824  532 S    0  0.0   0:00.09 upstart-udev-br    
+  380 root      20   0 22156 1148  828 S    0  0.0   0:00.13 udevd              
+  535 root      20   0 22152  736  344 S    0  0.0   0:00.00 udevd              
+  536 root      20   0 22152 1032  352 S    0  0.0   0:00.00 udevd              
+  626 root       0 -20     0    0    0 S    0  0.0   0:00.00 ttm_swap           
+  678 root       0 -20     0    0    0 S    0  0.0   0:00.00 kpsmoused          
+  706 root      20   0  119m 5832 4724 S    0  0.1   0:09.07 smbd               
+  731 root      20   0 50036 2932 2328 S    0  0.0   0:00.03 sshd               
+  734 root      20   0 19204 1100  812 S    0  0.0   0:05.29 rpcbind            
+  739 messageb  20   0 24992 2304  984 S    0  0.0   0:01.49 dbus-daemon        
+  750 root      20   0  119m 1928  588 S    0  0.0   0:00.35 smbd               
+  779 root      20   0 79044 3204 2416 S    0  0.0   0:00.03 modem-manager      
+  781 root      20   0 21192 1760 1480 S    0  0.0   0:00.00 bluetoothd         
+  801 avahi     20   0 32316 1808 1468 S    0  0.0   0:05.00 avahi-daemon       
+  802 avahi     20   0 32184  472  216 S    0  0.0   0:00.00 avahi-daemon       
+  804 statd     20   0 21508 1372  916 S    0  0.0   0:00.00 rpc.statd          
+  806 root      20   0 15324  672  344 S    0  0.0   0:00.02 upstart-socket-    
+  809 root       0 -20     0    0    0 S    0  0.0   0:00.00 rpciod             
+  819 root      20   0 99.6m 4112 3052 S    0  0.1   0:02.58 cupsd              
+  826 root      20   0  235m 7320 4272 S    0  0.1   0:04.86 NetworkManager     
+  829 root      20   0  190m 4464 2988 S    0  0.1   0:04.49 polkitd            
+  832 syslog    20   0  244m 6840 1168 S    0  0.1   3:04.31 rsyslogd           
+  836 root       0 -20     0    0    0 S    0  0.0   0:00.00 nfsiod             
+  849 root      10 -10     0    0    0 S    0  0.0   0:00.00 krfcommd           
+  872 root      20   0 25544  432  212 S    0  0.0   0:00.00 rpc.idmapd         
+  968 nobody    20   0 34244 1516 1272 S    0  0.0   0:08.70 dnsmasq            
+ 1112 root      20   0 21208  984  820 S    0  0.0   0:00.00 getty              
+ 1120 root      20   0 21208  976  820 S    0  0.0   0:00.00 getty              
+ 1154 root      20   0 21208  988  820 S    0  0.0   0:00.00 getty              
+ 1156 root      20   0 21208  984  820 S    0  0.0   0:00.00 getty              
+ 1161 root      20   0  124m 4256 3288 S    0  0.1   0:00.00 mdm                
+ 1166 root      20   0 21208  976  820 S    0  0.0   0:00.00 getty              
+ 1177 root      20   0 14972 1112  920 S    0  0.0   0:00.00 xinetd             
+ 1180 root      20   0  4464  836  580 S    0  0.0   0:00.00 acpid              
+ 1183 whoopsie  20   0  197m 5208 3796 S    0  0.1   0:07.78 whoopsie           
+ 1191 root      20   0 15984  700  520 S    0  0.0   7:47.90 irqbalance         
+ 1193 root      20   0 19116 1064  820 S    0  0.0   0:14.07 cron               
+ 1194 daemon    20   0 16912  384  220 S    0  0.0   0:00.04 atd                
+ 1266 root      20   0  154m 3416 2172 S    0  0.0   0:00.00 mdm                
+ 1427 root      20   0  149m  16m 9.8m S    0  0.2  50:30.27 Xorg               
+ 1474 root      20   0     0    0    0 S    0  0.0   0:00.00 lockd              
+ 1478 root       0 -20     0    0    0 S    0  0.0   0:00.00 nfsd4              
+ 1479 root       0 -20     0    0    0 S    0  0.0   0:00.00 nfsd4_callbacks    
+ 1480 root      20   0     0    0    0 S    0  0.0   0:00.01 nfsd               
+ 1481 root      20   0     0    0    0 S    0  0.0   0:00.01 nfsd               
+ 1482 root      20   0     0    0    0 S    0  0.0   0:00.01 nfsd               
+ 1483 root      20   0     0    0    0 S    0  0.0   0:00.01 nfsd               
+ 1484 root      20   0     0    0    0 S    0  0.0   0:00.01 nfsd               
+ 1489 root      20   0     0    0    0 S    0  0.0   0:00.01 nfsd               
+ 1490 root      20   0     0    0    0 S    0  0.0   0:00.01 nfsd               
+ 1491 root      20   0     0    0    0 S    0  0.0   0:00.00 nfsd               
+ 1530 root      20   0 24012  944  308 S    0  0.0   0:00.00 rpc.mountd         
+ 1555 root      20   0 3763m 558m  11m S    0  7.0  53:27.19 java               
+ 1852 mdm       20   0  186m  20m  12m S    0  0.3  80:37.78 mdmgreeter         
+ 2097 root      20   0 21208  984  820 S    0  0.0   0:00.00 getty              
+ 2176 root      20   0 91264 2076 1292 S    0  0.0   1:38.21 nmbd               
+ 3377 root      20   0 1018m 3972 2820 S    0  0.0   0:00.75 console-kit-dae    
+ 8676 root      20   0     0    0    0 S    0  0.0   0:40.48 kworker/1:2        
+ 9348 root       0 -20     0    0    0 S    0  0.0   0:00.00 xfs_mru_cache      
+ 9349 root       0 -20     0    0    0 S    0  0.0   0:00.00 xfslogd            
+ 9350 root       0 -20     0    0    0 S    0  0.0   0:00.00 xfsdatad           
+ 9351 root       0 -20     0    0    0 S    0  0.0   0:00.00 xfsconvertd        
+ 9354 root      20   0     0    0    0 S    0  0.0   0:00.00 jfsIO              
+ 9355 root      20   0     0    0    0 S    0  0.0   0:00.00 jfsCommit          
+ 9356 root      20   0     0    0    0 S    0  0.0   0:00.00 jfsCommit          
+ 9357 root      20   0     0    0    0 S    0  0.0   0:00.00 jfsSync            
+10800 root      20   0 17856 1660 1324 S    0  0.0   0:00.06 mysqld_safe        
+11430 root      20   0 12580  712  604 S    0  0.0   0:00.00 logger             
+14492 root      20   0 63136 1652 1248 S    0  0.0   0:00.00 su                 
+14500 root      20   0 29328 5164 1732 S    0  0.1   0:00.13 bash               
+16163 root      20   0  113m 3632 2544 S    0  0.0   0:00.04 mysql              
+16254 root      20   0 29428 5412 1876 S    0  0.1   0:00.79 bash               
+28799 root      20   0     0    0    0 S    0  0.0   0:01.82 kworker/0:1        
+29261 root      20   0     0    0    0 S    0  0.0   0:00.01 kworker/0:0        
+29324 root      20   0     0    0    0 S    0  0.0   0:00.00 kworker/0:2        
+29342 root      20   0 50756 1416 1020 S    0  0.0   0:00.00 cron               
+29345 root      20   0  4404  612  508 S    0  0.0   0:00.00 sh                 
+29346 root      20   0 40188 5868 2860 S    0  0.1   0:00.01 python             
+29347 root      20   0  4404  612  512 S    0  0.0   0:00.00 sh                 
+29348 root      20   0  4404  608  512 S    0  0.0   0:00.00 top.sh             
+30897 root      20   0  131m 3440 2860 S    0  0.0   0:00.01 gvfsd-computer     
+30909 root      20   0 47524 2304 1884 S    0  0.0   0:00.00 gvfsd-metadata     
+31226 root      20   0  267m 3140 2624 S    0  0.0   0:00.00 at-spi-bus-laun    
+32615 root      20   0 75872 2708 1380 S    0  0.0   1:55.53 httpd              
+32616 daemon    20   0  356m 2552  992 S    0  0.0   0:00.00 httpd              
+32617 daemon    20   0  420m 2548  992 S    0  0.0   0:00.00 httpd              
+32618 daemon    20   0  356m 2556  996 S    0  0.0   0:00.00 httpd              
+33603 root      20   0     0    0    0 S    0  0.0   1:00.79 flush-8:0          
+34169 root      20   0 30656 2000 1604 S    0  0.0   0:00.38 vncconfig          
+34170 root      20   0  355m 7652 5892 S    0  0.1   0:00.20 x-session-manag    
+34173 root      20   0 26564  560  304 S    0  0.0   0:00.00 dbus-launch        
+34174 root      20   0 25580 1932  628 S    0  0.0   0:00.24 dbus-daemon        
+34178 root      20   0  255m 2696 2148 S    0  0.0   0:00.09 dconf-service      
+34186 root      20   0  286m 3432 2752 S    0  0.0   0:00.02 mate-keyring-da    
+34191 root      20   0  802m  16m 9316 S    0  0.2   1:40.27 mate-settings-d    
+34194 root      20   0  555m  16m  10m S    0  0.2   0:09.78 marco              
+34200 root      20   0 53780 2580 2176 S    0  0.0   0:00.02 gvfsd              
+34201 root      20   0  549m  13m 9876 S    0  0.2   0:00.90 mate-panel         
+34203 root      20   0  339m 2832 2328 S    0  0.0   0:00.01 gvfs-fuse-daemo    
+34210 root      20   0  881m  27m  16m S    0  0.3   0:05.67 caja               
+34221 root      20   0  193m 5572 4516 S    0  0.1   0:00.28 polkit-mate-aut    
+34226 root      20   0 71944 3848 3148 S    0  0.0   0:00.02 gvfs-gdu-volume    
+34233 root      20   0  116m 3576 2864 S    0  0.0   0:00.27 udisks-daemon      
+34235 root      20   0 45520  796  448 S    0  0.0   0:00.00 udisks-daemon      
+34240 root      20   0 61560 2492 1952 S    0  0.0   0:00.00 gvfs-gphoto2-vo    
+34241 root      20   0  256m  23m  11m S    0  0.3   0:00.21 applet.py          
+34244 root      20   0  139m 2560 2056 S    0  0.0   0:00.01 gvfs-afc-volume    
+34245 root      20   0  407m 5704 4508 S    0  0.1   0:42.21 zeitgeist-datah    
+34248 root      20   0  685m  55m  18m S    0  0.7   1:19.26 mintmenu           
+34250 root      20   0  545m  17m  11m S    0  0.2   6:58.69 wnck-applet        
+34252 root      20   0  547m  15m  10m S    0  0.2   1:15.35 clock-applet       
+34254 root      20   0  423m 9960 6724 S    0  0.1   0:00.17 notification-ar    
+34260 root      20   0  293m 7604 5968 S    0  0.1   0:00.72 mate-screensave    
+34266 root      20   0  267m 3880 3032 S    0  0.0   0:00.53 zeitgeist-daemo    
+34267 root      20   0  239m  10m 8192 S    0  0.1   0:00.04 mate-volume-con    
+34280 root      20   0  230m 5400 4368 S    0  0.1   0:00.05 zeitgeist-fts      
+34290 root      20   0 37632 5412 2728 S    0  0.1   0:00.00 mintupdate-laun    
+34296 root      20   0  645m  17m  11m S    0  0.2   0:00.37 nm-applet          
+34299 root      20   0  4404  612  512 S    0  0.0   0:00.00 sh                 
+34300 root      20   0 16.9g  54m  14m S    0  0.7   0:03.62 mintUpdate         
+34302 root      20   0  440m  10m 7256 S    0  0.1   0:00.08 mate-bluetooth-    
+34314 root      20   0 12604  356  276 S    0  0.0   0:00.00 cat                
+34339 root      20   0 58540 3480 2848 S    0  0.0   0:00.04 gvfsd-trash        
+34359 root      20   0  110m 3164 2620 S    0  0.0   0:00.10 system-tools-ba    
+34362 root      20   0 59560 3844 2160 S    0  0.0   0:04.62 gconfd-2           
+34398 root      20   0 58908  18m 2660 S    0  0.2   0:00.28 SystemToolsBack    
+34580 root      20   0 17892  976  812 S    0  0.0   0:00.00 eclipse            
+34682 root      20   0 1888m  45m  24m S    0  0.6   0:00.48 python             
+34698 root      20   0  117m 8604 3252 S    0  0.1   0:00.09 python             
+34759 root      20   0  626m  21m  13m S    0  0.3   5:01.58 mate-terminal      
+34763 root      20   0     0    0    0 Z    0  0.0   0:00.00 mate-term <defunct>
+34836 root      20   0 29352 5252 1792 S    0  0.1   0:00.40 bash               
+38269 root      20   0 63136 1652 1248 S    0  0.0   0:00.01 su                 
+38277 root      20   0 29540 5332 1840 S    0  0.1   0:01.63 bash               
+48397 root      20   0  214m 4316 3344 S    0  0.1   0:00.06 upowerd            
+64681 root      20   0     0    0    0 S    0  0.0   0:00.83 kworker/1:0        
+
