@@ -1,0 +1,3 @@
+* * * * * python /root/workspace/python/python_test/top_log.py
+
+* * * * * python /root/workspace/python/python_test/sample1.py
